@@ -14,7 +14,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "https://nain-frontend.vercel.app",
-    "https://naincentroescucha.com"
+    "https://naincentroescucha.com",
+    "https://www.naincentroescucha.com"
   ]
 }));
 app.use(express.json())
